@@ -8,7 +8,7 @@ body{
 main{
     width: 800px;
     height: 800px;
-    margin: 5vh auto;
+    margin: 0 auto;
 
 }
 
@@ -39,6 +39,17 @@ i{
     background-color: white;
     color: white;
 }
+
+.blackFig{
+    color: rgb(189, 189, 189);
+    text-shadow: 0 0 6px red;
+}
+
+.whiteFig{
+    color: rgb(65, 65, 65);
+    text-shadow: 0 0 6px red;
+}
+
 div:hover{
     color:blue;
     box-shadow: 0 0 30px blue inset;
@@ -61,4 +72,11 @@ input:checked ~ main{
 
 input:checked ~ main article{
     flex-direction: column;
+}
+input{
+    display: none;
+}
+
+.klickItem{
+    margin:0 auto
 }
